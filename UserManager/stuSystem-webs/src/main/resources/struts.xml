@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+
+	<!-- 设置系统参数 -->
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.ui.theme" value="simple" />
+
+	<!-- 设置Action -->
+	<package name="mytest" extends="json-default">
+		<global-allowed-methods>regex:.*</global-allowed-methods>
+		
+		<action name="clsAction_*" method="{1}" class="clsAction">
+			<result name="addClass" type="redirect">/addClass.jsp?res=${res}</result>
+			<result name="toUpdate">/updateClass.jsp</result>
+			<result name="updateClass" type="redirect">/updateClass.jsp?res=${res}</result>
+			<result name="deleteClass" type="redirect">/showClass.jsp?res=${res}</result>
+		</action>
+		
+		<action name="stuAction_*" method="{1}" class="stuAction">
+			<result name="addStu" type="redirect">/addStu.jsp?res=${res}</result>
+			<result name="findClass" type="json">
+				<param name="includeProperties">clsList.*</param>
+			</result>
+			<result name="findStu">/showStu.jsp</result>
+			<result name="deleteStu" type="redirectAction">/stuAction_findStuList?res=${res}</result>
+			<result name="toupdate">/updateStu.jsp</result>
+			<result name="updateStu" type="redirect">/updateStu.jsp?res=${res}</result>
+		</action>
+		
+	</package>
+</struts>
+
+
+
+
+

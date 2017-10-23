@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="stusystem">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="stuSystem-services-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stuSystem-services/stuSystem-services">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stuSystem-dao-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stuSystem-dao/stuSystem-dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stuSystem-model-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stuSystem-model/stuSystem-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stuSystem-utils-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/stuSystem-utils/stuSystem-utils">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="stusystem"/>
+        <property name="java-output-path" value="/stuSystem-webs/target/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>user</groupId>
+    <artifactId>UserManager</artifactId>
+    <version>0.0.1</version>
+  </parent>
+  
+  
+  <artifactId>stuSystem-services</artifactId>
+    <dependencies>
+		<!-- Junit依赖 -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<!-- Spring 核心依赖 -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+		</dependency>
+		<!-- Spring web依赖 -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+		</dependency>
+		<!-- AspectJ依赖 -->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+		</dependency>
+		
+		<!-- 依赖empsystem-dao -->
+		<dependency>
+			<groupId>user</groupId>
+			<artifactId>stuSystem-dao</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<!-- 依赖empsystem.utils -->
+		<dependency>
+			<groupId>user</groupId>
+			<artifactId>stuSystem-utils</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+</project>
