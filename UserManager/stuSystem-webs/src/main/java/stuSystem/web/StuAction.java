@@ -32,7 +32,7 @@ public class StuAction {
 	public String addStu() {
 		if (stuService.addStu(stu)) {
 			res = 1;
-		} else {
+		} else {                     
 			res = 2;
 		}
 		return "addStu";
