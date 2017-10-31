@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="stuSystem-dao" />
+        <module name="stuSystem-model" />
+        <module name="stuSystem-services" />
+        <module name="stuSystem-utils" />
+        <module name="stuSystem-webs" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="stuSystem-dao" target="1.8" />
+      <module name="stuSystem-model" target="1.8" />
+      <module name="stuSystem-services" target="1.8" />
+      <module name="stuSystem-utils" target="1.8" />
+      <module name="stuSystem-webs" target="1.8" />
+      <module name="UserManager" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

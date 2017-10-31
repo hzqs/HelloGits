@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UserManager.iml" filepath="$PROJECT_DIR$/UserManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stuSystem-dao/stuSystem-dao.iml" filepath="$PROJECT_DIR$/stuSystem-dao/stuSystem-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stuSystem-model/stuSystem-model.iml" filepath="$PROJECT_DIR$/stuSystem-model/stuSystem-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stuSystem-services/stuSystem-services.iml" filepath="$PROJECT_DIR$/stuSystem-services/stuSystem-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stuSystem-utils/stuSystem-utils.iml" filepath="$PROJECT_DIR$/stuSystem-utils/stuSystem-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stuSystem-webs/stuSystem-webs.iml" filepath="$PROJECT_DIR$/stuSystem-webs/stuSystem-webs.iml" />
+    </modules>
+  </component>
+</project>
